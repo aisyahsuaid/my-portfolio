@@ -63,37 +63,58 @@ button:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.project-overview {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 
-.pro-el {
-  height: 281px;
-  max-width: 300px;
-  scroll-snap-align: start;
-  margin: 50px;
-  border-radius: 5px;
-  border: 1px solid var(--secondary-colour);
-}
-.pro-el:hover {
-  opacity: 0.5;
-  transition: 0.3s;
-}
+.container-card {
+  height: 300px;
 
-.scroller {
-  margin: auto;
-  width: 700px;
-}
-.project-element {
-  background: var(--tertiary-colour);
-
-  border-radius: 5px;
-}
-.project-container {
   display: flex;
-  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
 
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
+.card {
+  height: 280px;
+  width: 200px;
+  background-color: rgba(45, 96, 76, 0.9);
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem var(--tertiary-colour);
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  /*position: relative;
+  left: 0px;*/
+}
+
+.card:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.title {
+  color: var(--tertiary-colour);
+  font-weight: 300;
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+}
+
+.card:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+.project-pic {
+  width: 180px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  height: 150px;
 }

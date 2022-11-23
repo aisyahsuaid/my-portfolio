@@ -31,60 +31,12 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Projects
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Weather App</a></li>
-                <li><a class="dropdown-item" href="#">Landing Page</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">My Github Repository</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <div class="home-welcome">
       <h1 class="main-font main-colour">AISYAH SUAID</h1>
       <h2 class="secondary-font">Aspiring-Front End Developer</h2>
       <button class="secondary-font cv-btn">Take a look at my CV!</button>
     </div>
-    <div class="bio">
+    <div class="bio second-part">
       <div class="container text-center">
         <h2 class="main-font fs-1 mx-5 my-5 main-colour">Who is she?</h2>
         <div class="row">
@@ -107,27 +59,24 @@
         </div>
       </div>
     </div>
-    <div class="project-overview">
-      <div class="container text-center">
-        <h2 class="main-font fs-1 mx-5 my-5 main-colour">Projects</h2>
-        <div class="scroller secondary-font">
-          <div class="project-container">
-            <div class="project-element">
-              <img src="/images/sanrio.png" class="pro-el" />
-              <p>Sanrio-themed Landing Page</p>
-            </div>
-            <div class="project-element">
-              <img src="/images/weather.png" class="pro-el" />
-              <p>Weather Web Application</p>
-            </div>
-            <div class="project-element">
-              <img src="/images/portfolio.png" class="pro-el" />
-              <p>Personal Web Portfolio</p>
-            </div>
-          </div>
+    <div class="projects text-center">
+      <h2 class="main-font fs-1 mx-5 my-5 main-colour">Projects</h2>
+      <div class="container-card">
+        <div class="card">
+          <h3 class="title main-font">Sanrio Landing Page</h3>
+          <img class="project-pic" src="/images/sanrio.png" />
+        </div>
+        <div class="card">
+          <h3 class="title main-font">Weather Application</h3>
+          <img class="project-pic" src="/images/weather.png" />
+        </div>
+        <div class="card">
+          <h3 class="title main-font">Personal Portfolio</h3>
+          <img class="project-pic" src="/images/portfolio.png" />
         </div>
       </div>
     </div>
+
     <script src="/src/code.js"></script>
   </body>
 </html>
