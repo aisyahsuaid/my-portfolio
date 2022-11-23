@@ -63,12 +63,22 @@ button:hover {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.project-overview {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 .pro-el {
   height: 281px;
   max-width: 300px;
   scroll-snap-align: start;
   margin: 50px;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-colour);
+}
+.pro-el:hover {
+  opacity: 0.5;
+  transition: 0.3s;
 }
 
 .scroller {
@@ -77,10 +87,13 @@ button:hover {
 }
 .project-element {
   background: var(--tertiary-colour);
+
+  border-radius: 5px;
 }
 .project-container {
   display: flex;
   gap: 40px;
+
   overflow-x: auto;
   scroll-snap-type: x mandatory;
 }
