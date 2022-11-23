@@ -17,7 +17,7 @@ h1 {
 h2 {
   font-size: 20px;
 }
-img {
+.selfie {
   border-radius: 50%;
   width: 200px;
   filter: drop-shadow(10px 10px 4px #2d604c);
@@ -62,4 +62,25 @@ button:hover {
 .bio {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.pro-el {
+  height: 281px;
+  max-width: 300px;
+  scroll-snap-align: start;
+  margin: 50px;
+}
+
+.scroller {
+  margin: auto;
+  width: 85vw;
+}
+.project-element {
+  background: var(--tertiary-colour);
+}
+.project-container {
+  display: flex;
+  gap: 40px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
 }

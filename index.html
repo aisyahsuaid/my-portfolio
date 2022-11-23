@@ -29,11 +29,6 @@
       href="https://fonts.googleapis.com/css?family=Lato"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://unpkg.com/open-props" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/open-props/normalize.min.css"
-    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-light">
@@ -94,7 +89,7 @@
         <h2 class="main-font fs-1 mx-5 my-5 main-colour">Who is she?</h2>
         <div class="row">
           <div class="col-6">
-            <img src="/images/me.jpg" alt="A selfie of me" />
+            <img src="/images/me.jpg" alt="A selfie of me" class="selfie" />
           </div>
           <div class="col-6">
             <h3 class="fs-3 secondary-font">Hello everyone and welcome! 🍄</h3>
@@ -114,7 +109,23 @@
     </div>
     <div class="project-overview">
       <div class="container text-center">
-        <h2 class="main-font fs-1 main-colour">Projects</h2>
+        <h2 class="main-font fs-1 mx-5 my-5 main-colour">Projects</h2>
+        <div class="scroller">
+          <div class="project-container">
+            <div class="project-element">
+              <img src="/images/sanrio.png" class="pro-el" />
+              <p>sanrio</p>
+            </div>
+            <div class="project-element">
+              <img src="/images/weather.png" class="pro-el" />
+              <p>weather app</p>
+            </div>
+            <div class="project-element">
+              <img src="/images/portfolio.png" class="pro-el" />
+              <p>portfolio</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <script src="/src/code.js"></script>
