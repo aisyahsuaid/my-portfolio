@@ -20,6 +20,8 @@ h2 {
 img {
   border-radius: 50%;
   width: 200px;
+  filter: drop-shadow(10px 10px 4px #2d604c);
+  border: 1px solid var(--secondary-colour);
 }
 .cv-btn {
   background-color: transparent;
@@ -43,6 +45,12 @@ button:hover {
 .main-colour {
   color: var(--primary-colour);
 }
+.secondary-colour {
+  color: var(--secondary-colour);
+}
+.tertiary-colour {
+  color: var(--tertiary-colour);
+}
 
 .home-welcome {
   background: radial-gradient(#a9d1bb, #e1ebdc);
@@ -53,4 +61,5 @@ button:hover {
 
 .bio {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
