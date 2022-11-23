@@ -1,0 +1,33 @@
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 20px;
+}
+.cv-btn {
+  background-color: transparent;
+  border: 1px solid #2d604c;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 5px;
+  transition: 0.5s;
+  font-size: 12px;
+}
+button:hover {
+  background-color: #2d604c;
+}
+.main-font {
+  font-family: "Brasika Display - Trial", sans-serif;
+}
+.secondary-font {
+  font-family: "TT Norms", sans-serif;
+}
+.main-colour {
+  color: #2d604c;
+}
+
+.home-welcome {
+  background: radial-gradient(#a9d1bb, #e1ebdc);
+  text-align: center;
+  padding: 100px;
+}
