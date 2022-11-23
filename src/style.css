@@ -1,12 +1,29 @@
+:root {
+  --primary-colour: #2d604c;
+  --secondary-colour: #e1ebdc;
+  --tertiary-colour: #a9d1bb;
+}
+body {
+  background: radial-gradient(
+      ellipse at top,
+      var(--tertiary-colour),
+      transparent
+    ),
+    radial-gradient(ellipse at bottom, var(--secondary-colour), transparent);
+}
 h1 {
   font-size: 50px;
 }
 h2 {
   font-size: 20px;
 }
+img {
+  border-radius: 50%;
+  width: 200px;
+}
 .cv-btn {
   background-color: transparent;
-  border: 1px solid #2d604c;
+  border: 1px solid var(--primary-colour);
   border-radius: 5px;
   margin: 20px;
   padding: 5px;
@@ -15,6 +32,7 @@ h2 {
 }
 button:hover {
   background-color: #2d604c;
+  color: var(--secondary-colour);
 }
 .main-font {
   font-family: "Brasika Display - Trial", sans-serif;
@@ -23,11 +41,16 @@ button:hover {
   font-family: "TT Norms", sans-serif;
 }
 .main-colour {
-  color: #2d604c;
+  color: var(--primary-colour);
 }
 
 .home-welcome {
   background: radial-gradient(#a9d1bb, #e1ebdc);
+  background-attachment: fixed;
   text-align: center;
-  padding: 100px;
+  padding: 200px 20px;
+}
+
+.bio {
+  margin-top: 50px;
 }
