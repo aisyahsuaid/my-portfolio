@@ -3,17 +3,16 @@
   --secondary-colour: #e1ebdc;
   --tertiary-colour: #a9d1bb;
 }
-body.index {
+
+body {
+  background: rgb(169, 209, 187);
   background: radial-gradient(
-      ellipse at top,
-      var(--tertiary-colour),
-      transparent
-    ),
-    radial-gradient(ellipse at bottom, var(--secondary-colour), transparent);
+    circle,
+    rgba(169, 209, 187, 1) 0%,
+    rgba(225, 235, 220, 1) 100%
+  );
 }
-body.about {
-  background: radial-gradient(#a9d1bb, #e1ebdc);
-}
+
 h1 {
   font-size: 50px;
 }
