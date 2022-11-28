@@ -29,8 +29,8 @@
   </head>
   <body class="index">
     <nav
-      class="navbar navbar-expand-lg sticky-top"
-      style="background-color: #e1ebdc"
+      class="navbar navbar-expand-md sticky-top"
+      style="background-color: rgba(225, 235, 220, 0.3)"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -48,17 +48,19 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 secondary-font">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="/index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="/about.html">About Me</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/projects.html"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -66,16 +68,32 @@
                 Projects
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Landing Page</a></li>
-                <li><a class="dropdown-item" href="#">Weather App</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://sanrio-horoscope.netlify.app/"
+                    target="_blank"
+                    >Landing Page</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://cya-weather-app.netlify.app/"
+                    target="_blank"
+                    >Weather App</a
+                  >
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
-                  <a class="dropdown-item" href="#">My Github Profile</a>
+                  <a class="dropdown-item" href="/projects.html"
+                    >See all my projects</a
+                  >
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="/contact.html">Contact</a>
             </li>
           </ul>
         </div>
