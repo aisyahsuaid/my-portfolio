@@ -106,7 +106,12 @@
     <div class="home-welcome">
       <h1 class="main-font main-colour">AISYAH SUAID</h1>
       <h2 class="secondary-font">Aspiring-Front End Developer</h2>
-      <button class="secondary-font cv-btn">Take a look at my CV!</button>
+      <button
+        class="secondary-font cv-btn"
+        onclick="window.open('https://drive.google.com/file/d/1V4-8ic9cL7jKpfDw6vCPzMZIk24ntMhJ/view?usp=sharing','_blank')"
+      >
+        Take a look at my CV!
+      </button>
     </div>
     <div class="container">
       <div class="bio second-part">
@@ -120,12 +125,12 @@
               <h3 class="fs-3 secondary-font">
                 Hello everyone and welcome! 🍄
               </h3>
-              <span class="secondary-font fs-7">
+              <span class="secondary-font fs-7 short-bio">
                 I'm a recent graduate from University of Bristol with a degree
                 in Mechanical Engineering. I'm from Malaysia and currently in
                 training to reach my dream to become a Software Engineer in the
                 UK 🌟
-                <br />
+                <br /><br />
                 I'm passionate about technology and gaining knowledge in my free
                 time. If you think I'm interesting (I hope you do), learn more
                 of my hobbies and interests in the "About me" page.
@@ -135,18 +140,28 @@
         </div>
       </div>
       <div class="projects text-center">
-        <h2 class="main-font fs-1 mx-5 my-5 main-colour">Projects</h2>
+        <h2 class="main-font fs-1 mx-5 my-5 mt-5 main-colour">Projects</h2>
         <div class="container-card">
           <div class="card">
-            <h3 class="title main-font">Landing Page</h3>
+            <h3 class="title main-font">
+              <a href="https://sanrio-horoscope.netlify.app/" target="_blank"
+                >Landing Page</a
+              >
+            </h3>
             <img class="project-pic" src="/images/sanrio.png" />
           </div>
           <div class="card">
-            <h3 class="title main-font">Weather Application</h3>
+            <h3 class="title main-font">
+              <a href="https://cya-weather-app.netlify.app/" target="_blank">
+                Weather Application</a
+              >
+            </h3>
             <img class="project-pic" src="/images/weather.png" />
           </div>
           <div class="card">
-            <h3 class="title main-font">Personal Portfolio</h3>
+            <h3 class="title main-font">
+              <a href="https://aisyahsuaid.netlify.app/">Personal Portfolio</a>
+            </h3>
             <img class="project-pic" src="/images/portfolio.png" />
           </div>
         </div>
@@ -158,7 +173,12 @@
             <p class="text-muted secondary-font">Let's work together</p>
           </div>
           <div>
-            <button class="secondary-font footer-btn">Contact me</button>
+            <button
+              class="secondary-font footer-btn"
+              onclick="location.href='/contact.html'"
+            >
+              Contact me
+            </button>
           </div>
         </div>
         <div class="social d-flex justify-content-center">
