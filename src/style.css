@@ -63,6 +63,21 @@ h2 {
   transition: 0.5s;
   font-size: 12px;
 }
+.about-btn {
+  background-color: transparent;
+  border: 1px solid var(--primary-colour);
+  border-radius: 5px;
+  margin: auto;
+  padding: 5px;
+  transition: 0.5s;
+  font-size: 15px;
+  display: block;
+  text-align: center;
+}
+.long-bio {
+  margin: 30px auto;
+  padding: 20px;
+}
 button:hover {
   background-color: #2d604c;
   color: var(--secondary-colour);
@@ -138,6 +153,10 @@ button:hover {
   text-align: center;
   padding: 10px;
   font-size: 25px;
+}
+.title-project a {
+  text-decoration: none;
+  color: var(--secondary-colour);
 }
 .title a {
   text-decoration: none;
